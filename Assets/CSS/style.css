@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+/* Header + general page layout */
 header{
     margin: 0;
     padding: 0px 0;
@@ -96,6 +97,14 @@ a:visited{
     height: 100%;
     width:100%;
 }
+.page{
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 20px black;
+    height:1000px;
+    display: flex;
+}
+/*Index page work */
 .latest{
     margin-left: 100px;
     display: block;
@@ -121,13 +130,7 @@ a:visited{
     transform: scale(1.1);
     z-index: 5;
 }
-.page{
-    margin-left: 40px;
-    margin-right: 40px;
-    box-shadow: 4px 4px 20px black;
-    height:1000px;
-    display: flex;
-}
+/*Contact us page */
 .contact-us-page{
     display: flex;
     flex-direction: column;
