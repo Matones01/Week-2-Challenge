@@ -104,11 +104,14 @@ a:visited{
     height:fit-content;
     display: flex;
     flex-direction: column;
+    
 }
 footer{
     background-color: rgb(84, 79, 72);
     text-align: center;
     width:100%;
+    position: fixed;
+    bottom:0;
 }
 /*Index page work */
 .latest{
